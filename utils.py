@@ -31,7 +31,7 @@ class CrossoverHelper:
                 selected_value = half[0]
         else:
             if likely_first == 0.5:
-                selected_value = half[0]  # ERRADO, era pra ser 1 ao inves de 0
+                selected_value = half[1]
             elif difference_first < difference_last:
                 selected_value = half[0]
             else:
